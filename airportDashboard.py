@@ -2,11 +2,7 @@ import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 import numpy as np
 import streamlit as st
-from streamlit import config
 
-
-# Set the default Streamlit theme to 'dark'
-config.set_option('theme','dark')
 
 
 # add title to the page
