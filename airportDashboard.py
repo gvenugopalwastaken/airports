@@ -2,9 +2,11 @@ import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 import numpy as np
 import streamlit as st
+import streamlit.config as config
+
 
 #theme
-st.set_theme('dark')
+config.set_option('theme', 'dark')
 
 # add title to the page
 st.title("Airports Cost Optimization Dashboard")
